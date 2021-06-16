@@ -21,7 +21,7 @@ h1{
 	width: 35%;
 	height: 40px;
 	border: 1px solid white;
-	top: -149px;
+	top: -230px;
 	left: -17px;
 	color: white;
 }
@@ -30,11 +30,11 @@ p{
 	border: 1px solid white;
 	background-color: coral;
 	width: 90%;
-	height: 150px;
+	height: 230px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: Times New Roman;
-	padding: 40px;
+	padding: 45px;
 	
 }
 
