@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+body{
+	background: black;
+
+}
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+#title1, #title2, #title3{
+	text-align: center;
+	background-color: pink;
+	padding: 10px;
+	float: right;
+	position: relative;
+	width: 35%;
+	height: 40px;
+	border: 1px solid white;
+	top: -149px;
+	left: -17px;
+	color: white;
+}
+
+p{
+	border: 1px solid white;
+	background-color: coral;
+	width: 90%;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Times New Roman;
+	padding: 40px;
+	
+}
+
+.fila{
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.col-md-4, .col-md-4, .col-md-4{
+	position: relative;
+	float:left;
+	
+}
+.col-md-4{
+	width: 8.33%;
+}
+.col-md-4{
+	width: 16.66%;
+}
+.col-md-4{
+	width: 25%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-sm-6, .col-sm-6, .col-sm-6{
+	float: left;
+	
+}
+.col-sm-6{
+	width: 8.33%;
+}
+.col-sm-6{
+	width: 16.66%;
+}
+.col-sm-6{
+	width: 25%;
+}
+@media (min-width: 767px){
+	.col-xs-6, .col-xs-6, .col-xs-6 {
+	float: left;
+	
+}
+.col-xs-7{
+	width: 8.33%;
+}
+.col-xs-6{
+	width: 16.66%;
+}
+.col-xs-6{
+	width: 25%;
+}
